@@ -22,13 +22,13 @@
 		6F74BED5156AB3010034E404 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F74BED7156AB3010034E404 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F74BED9156AB3010034E404 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6F74BEDD156AB3010034E404 /* Quiz-Info.plist */ = {isa = PBXFileReference; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
+		6F74BEDD156AB3010034E404 /* Quiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz-Info.plist"; sourceTree = "<group>"; };
 		6F74BEDF156AB3010034E404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F74BEE1156AB3010034E404 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6F74BEE3156AB3010034E404 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
-		6F74BEE4156AB3010034E404 /* QuizAppDelegate.h */ = {isa = PBXFileReference; path = QuizAppDelegate.h; sourceTree = "<group>"; };
+		6F74BEE3156AB3010034E404 /* Quiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz-Prefix.pch"; sourceTree = "<group>"; };
+		6F74BEE4156AB3010034E404 /* QuizAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizAppDelegate.h; sourceTree = "<group>"; };
 		6F74BEE5156AB3010034E404 /* QuizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizAppDelegate.m; sourceTree = "<group>"; };
-		6F74BEE7156AB3010034E404 /* QuizViewController.h */ = {isa = PBXFileReference; path = QuizViewController.h; sourceTree = "<group>"; };
+		6F74BEE7156AB3010034E404 /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
 		6F74BEE8156AB3010034E404 /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 		6F74BEEB156AB3010034E404 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
