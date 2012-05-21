@@ -9,5 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @interface QuizViewController : UIViewController
+{
+    int currentQuestionIndex;
+    
+    // Model Objects
+    NSMutableArray *questions;
+    NSMutableArray *answers;
+    
+    // View Objects
+    IBOutlet UILabel *questionField;
+    IBOutlet UILabel *answerField;
+    
+}
+
+- (IBAction)showQuestion:(id)sender;
+- (IBAction)showAnswer:(id)sender;
 
 @end
