@@ -38,7 +38,7 @@
     return self;
     
 }
-- (IBAction)showQuestion:(id)sender:(id)sender
+- (IBAction)showQuestion:(id)sender
 {
     // Step to the next question
     currentQuestionIndex++;
@@ -65,7 +65,7 @@
     
 }
 
-- (IBAction)showAnswer:(id)sender:(id)sender
+- (IBAction)showAnswer:(id)sender
 {
     // What is the answer to the current question?
     NSString *answer = [answers objectAtIndex:currentQuestionIndex];
