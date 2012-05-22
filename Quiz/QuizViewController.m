@@ -19,7 +19,7 @@
     //Call the init method implemented by the superclass
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Create two arrays and make teh pointers point ot them
+        // Create two arrays and make the pointers point ot them
         questions = [[NSMutableArray alloc] init];
         answers = [[NSMutableArray alloc] init];
         
