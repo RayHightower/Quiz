@@ -17,6 +17,7 @@
 		6F74BEEC156AB3010034E404 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F74BEEA156AB3010034E404 /* QuizViewController.xib */; };
 		6F74BEF3156C06340034E404 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F74BEF2156C06340034E404 /* Icon.png */; };
 		6F74BEF5156C06390034E404 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F74BEF4156C06390034E404 /* Icon@2x.png */; };
+		6F74BEF7156C0E3E0034E404 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F74BEF6156C0E3E0034E404 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		6F74BEEB156AB3010034E404 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizViewController.xib; sourceTree = "<group>"; };
 		6F74BEF2156C06340034E404 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		6F74BEF4156C06390034E404 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6F74BEF6156C0E3E0034E404 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		6F74BEC6156AB3010034E404 = {
 			isa = PBXGroup;
 			children = (
+				6F74BEF6156C0E3E0034E404 /* Default.png */,
 				6F74BEF4156C06390034E404 /* Icon@2x.png */,
 				6F74BEF2156C06340034E404 /* Icon.png */,
 				6F74BEDB156AB3010034E404 /* Quiz */,
@@ -160,6 +163,7 @@
 				6F74BEEC156AB3010034E404 /* QuizViewController.xib in Resources */,
 				6F74BEF3156C06340034E404 /* Icon.png in Resources */,
 				6F74BEF5156C06390034E404 /* Icon@2x.png in Resources */,
+				6F74BEF7156C0E3E0034E404 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
