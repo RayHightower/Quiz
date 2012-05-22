@@ -38,8 +38,13 @@
         
         [questions addObject:@"What is the answer?"];
         [answers addObject:@"42"];
+        NSLog(@"\nquestions: %@", questions);
+        NSLog(@"\nanswers: %@", answers);
         
-
+        // Another way to print the contents of an array
+        NSLog(@"\nPrint array objects again, using a for loop."); 
+        for (id obj in questions)
+            NSLog(@"\nobj: %@", obj);
         
     }
     // Return the address of the new object
@@ -76,6 +81,7 @@
 - (IBAction)showAnswer:(id)sender
 {
     // What is the answer to the current question?
+    // Note by RTH: currentQuestionIndex is the array index. Why is this so verbose???
     NSString *answer = [answers objectAtIndex:currentQuestionIndex];
     
     // Display it in the answer field

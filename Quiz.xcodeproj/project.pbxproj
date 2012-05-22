@@ -15,6 +15,8 @@
 		6F74BEE6156AB3010034E404 /* QuizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F74BEE5156AB3010034E404 /* QuizAppDelegate.m */; };
 		6F74BEE9156AB3010034E404 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F74BEE8156AB3010034E404 /* QuizViewController.m */; };
 		6F74BEEC156AB3010034E404 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F74BEEA156AB3010034E404 /* QuizViewController.xib */; };
+		6F74BEF3156C06340034E404 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F74BEF2156C06340034E404 /* Icon.png */; };
+		6F74BEF5156C06390034E404 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F74BEF4156C06390034E404 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		6F74BEE7156AB3010034E404 /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
 		6F74BEE8156AB3010034E404 /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 		6F74BEEB156AB3010034E404 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizViewController.xib; sourceTree = "<group>"; };
+		6F74BEF2156C06340034E404 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6F74BEF4156C06390034E404 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		6F74BEC6156AB3010034E404 = {
 			isa = PBXGroup;
 			children = (
+				6F74BEF4156C06390034E404 /* Icon@2x.png */,
+				6F74BEF2156C06340034E404 /* Icon.png */,
 				6F74BEDB156AB3010034E404 /* Quiz */,
 				6F74BED4156AB3010034E404 /* Frameworks */,
 				6F74BED2156AB3010034E404 /* Products */,
@@ -152,6 +158,8 @@
 			files = (
 				6F74BEE0156AB3010034E404 /* InfoPlist.strings in Resources */,
 				6F74BEEC156AB3010034E404 /* QuizViewController.xib in Resources */,
+				6F74BEF3156C06340034E404 /* Icon.png in Resources */,
+				6F74BEF5156C06390034E404 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
