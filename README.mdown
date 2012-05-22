@@ -1,0 +1,7 @@
+Quiz example
+===
+
+Big Nerd Ranch
+
+Purpose of this app: To write multlple apps in both Obj-C and RubyMotion
+for learning & comparison.
