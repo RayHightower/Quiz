@@ -19,7 +19,7 @@
     // View Objects
     IBOutlet UILabel *questionField;
     IBOutlet UILabel *answerField;
-    
+
 }
 
 - (IBAction)showQuestion:(id)sender;

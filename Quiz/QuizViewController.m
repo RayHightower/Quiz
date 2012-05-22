@@ -17,8 +17,13 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     //Call the init method implemented by the superclass
+
+    NSLog(@"\nIn QuizViewController.m. questions: %@", questions); // Debug that puppy...
+    
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        NSLog(@"\nIf self... in QuizViewController.m. questions: %@", questions); // Debug that puppy...
+
         // Create two arrays and make the pointers point ot them
         questions = [[NSMutableArray alloc] init];
         answers = [[NSMutableArray alloc] init];
@@ -26,12 +31,15 @@
         // Add questions and answers to the arrays
         [questions addObject:@"What is the square root of nine?"];
         [answers addObject:@"3"];
+        NSLog(@"\nAdded square root of nine in QuizViewController.m. questions: %@", questions); // Debug that puppy...
         
         [questions addObject:@"What is the capital of Illinois?"];
         [answers addObject:@"Springfield"];
         
         [questions addObject:@"What is the answer?"];
         [answers addObject:@"42"];
+        
+
         
     }
     // Return the address of the new object
